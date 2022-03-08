@@ -29,8 +29,8 @@ namespace _15_CSharpVersions
             }
             // Output:
             // a is 42
-            int? a = 28;
-            int b = a ?? -1;
+            int? a1 = 28;
+            int b = a1 ?? -1;
             Console.WriteLine($"b is {b}");  // output: b is 28
         }
     }
